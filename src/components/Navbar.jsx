@@ -19,7 +19,7 @@ export default function App() {
   const dispatch = useDispatch()
 
   useEffect(()=>{
-    dispatch(getCartTotal())
+    dispatch(getCartTotal())  
   }
   ,[cart])
   return (
